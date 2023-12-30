@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>  <head>
+    <title>Guess the Number Game</title>
+    <link rel="stylesheet" href="style.css">
+  </head>
+  <body>
+    <h1>Guess the Number Game</h1>
+    <form onSubmit = checkNumber(event)>
+      <p>Guess a number between 1 and 100:</p>
+      <input type="text" id="guessInput">
+      <br>
+      <button type="submit">Submit Guess</button>
+      <br>
+      <p id="feedback"></p>
+      <p id="attempts">Attempts: <span id="attemptsCount">0</span></p> 
+      <p id="score"></p>
+    </form>
+  </body>
+  <script src="script.js"></script>
+</html> 
